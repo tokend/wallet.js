@@ -1,0 +1,34 @@
+{
+    "name": "@tokend/wallet.js",
+    "version": "0.1.2",
+    "private": true,
+    "dependencies": {
+        "tokend-js-base": "https://github.com/tokend/js-base.git",
+        "lodash": "~2.4.1",
+        "sjcl": "git+https://github.com/stellar/sjcl.git",
+        "sjcl-scrypt": "git+https://github.com/stellar/sjcl-scrypt.git",
+        "tweetnacl": "^0.11.2"
+    },
+    "devDependencies": {
+        "chai": "~1.9.0",
+        "chai-as-promised": "~4.1.1",
+        "body-parser": "^1.9.2",
+        "express": "^4.9.8",
+        "ghooks": "^0.2.2",
+        "gulp": "~3.6.0",
+        "gulp-coveralls": "^0.1.3",
+        "gulp-git": "~0.5.3",
+        "gulp-rimraf": "~0.1.0",
+        "gulp-load-plugins": "~0.5.0",
+        "gulp-rename": "~1.2.0",
+        "gulp-uglify": "~0.3.1",
+        "gulp-webpack": "~0.4.1",
+        "istanbul": "~0.3.2",
+        "mocha": "~1.17.1",
+        "notp": "^2.0.2",
+        "opn": "~1.0.0",
+        "run-sequence": "~0.3.6",
+        "webpack": "~1.4.4",
+        "zuul": "~1.16.5"
+    }
+}
